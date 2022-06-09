@@ -1,0 +1,27 @@
+Server:		192.168.220.2
+Address:	192.168.220.2#53
+
+Name:	a.localdomain
+Address: 127.0.0.1
+** server can't find a.localdomain: NXDOMAIN
+
+This TLD has no whois server, but you can access the whois database at
+http://www.pknic.net.pk/
+
+; <<>> DiG 9.18.1-1-Debian <<>> iba.edu.pk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48914
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;iba.edu.pk.			IN	A
+
+;; ANSWER SECTION:
+iba.edu.pk.		5	IN	A	192.124.249.134
+
+;; Query time: 3 msec
+;; SERVER: 192.168.220.2#53(192.168.220.2) (UDP)
+;; WHEN: Mon Jun 06 02:14:38 EDT 2022
+;; MSG SIZE  rcvd: 44
+
